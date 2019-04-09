@@ -28,11 +28,21 @@ hr {
     list-style: none;
 
 }
-.contact a:link  {
+.contact a {
     color: darkgreen;
+    text-decoration: none;
+    text-transform: none;
        
 }
-
+ .skills li::before {
+     content: url('/images/foilage.png');
+     height: 10px;
+     width: 10px;
+     position: absolute;
+    
+ }
 .greenfont {
     color: darkgreen;
 }
+
+
