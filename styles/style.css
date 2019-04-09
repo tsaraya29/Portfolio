@@ -21,4 +21,18 @@ hr {
 .skills {
     list-style: none;
     font-size: 1.25em;
+    
+}
+
+.contact {
+    list-style: none;
+
+}
+.contact a:link  {
+    color: darkgreen;
+       
+}
+
+.greenfont {
+    color: darkgreen;
 }
