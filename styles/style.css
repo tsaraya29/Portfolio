@@ -11,38 +11,51 @@ body {
 p {
     font-size: 1.25em;
 }
-hr {          
+/* hr  {          
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         border-style: inset;
         border-width: 1px;
         color: #fcfcfc;
-      }
+      } */
+
+/* hr  {          
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+border-style: inset;
+border-width: 1px;
+color: darkgreen;
+} */
+
 .skills {
     list-style: none;
-    font-size: 1.25em;
-    
+    font-size: 1.25em;   
 }
-
 .contact {
     list-style: none;
-
 }
 .contact a {
     color: darkgreen;
     text-decoration: none;
-    text-transform: none;
-       
+    text-transform: none;       
 }
  .skills li::before {
      content: url('/images/foilage.png');
      height: 10px;
      width: 10px;
-     position: absolute;
-    
+     position: absolute;    
  }
 .greenfont {
     color: darkgreen;
 }
 
+.top-margin {
+    margin-top: 15px;
+}
 
+/* Accordion styles: */
+
+.w3-forest,.w3-hover-forest:hover{
+    color:#fcfcfc!important;background-color:rgb(11, 54, 11)!important
+}
+.w3-pale,.w3-hover-pale:hover{color:#000!important;background-color:#c8ec98 !important}
